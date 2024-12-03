@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:'Byekan';
+    src: url(../fonts/Byekan.ttf) format('truetype') , url(../fonts/Byekan.woff) format('woff');
+}
+@font-face{
+    font-family:'lalezar';
+    src: url(../fonts/lalezar.ttf) format('truetype') , url(../fonts/lalezar.woff) format('woff');
+}
+body,html{
+    font-family: Byekan;
+}
+.header{
+    height: 650px;
+    background-image: url('../img/Background1.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+    text-align: center;
+}
+.header .nov-list{
+    list-style-type: none;
+}
+
+.header .nav-item{
+    display: inline-block;
+    padding: 20px;
+}
+.header .nav-item:hover{
+    color: darkorchid;
+}
+
+.title {
+    font-family: lalezar;
+    font-size: 50px;
+    margin-top: 120px;
+    
+}
+.title span{
+    color: darkorchid;
+    text-shadow: 2px 2px 8px white;
+}
+.desc{
+    margin: auto;
+    width: 550px;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(0,0,0,.5);
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.members{
+    text-align: center;
+    padding: 50px 30px;
+    background-color: black;
+    color: white;
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 15px #bbbbbb;
+    color: wheat;
+}
+.member-item:hover{
+box-shadow: 0 0 0 0;
+scale: 1.05;
+transition: all 500ms;
+}
+.member-pic{
+    width: 100%;
+}
+.biography{
+    height: 700px;
+    background-image: url(../img/photo-1532980400857-e8d9d275d858.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #00000080;
+    background-blend-mode: multiply;
+    padding-top: 50px;
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(135,135,135,.4);
+    color: white;
+    margin: auto;
+    border-radius: 50%;
+    padding: 130px 120px;
+    text-align: justify;
+}
+.circle p{
+    margin-top: 30px; 
+}
+.footer{
+    background-color: rgb(30,30,30);
+    text-align: center;
+    padding: 5px;
+    height: 80px;
+}
+.footer img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+}
